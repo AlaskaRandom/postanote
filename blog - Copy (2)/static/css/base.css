@@ -1,0 +1,81 @@
+/* static/css/base.css */
+/*
+body {
+    font-family: 'Courier', monospace;
+    font-size: 18px;
+}
+header {
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+    display: flex;
+}
+header h1 a {
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    color: rgb(176, 164, 144);
+    text-decoration: none;
+}
+.nav-left {
+    margin-right: auto;
+}
+.nav-right {
+    display: flex;
+    padding-top: 2rem;
+}
+.post-entry {
+    margin-bottom: 2rem;
+}
+.post-entry h2 {
+    margin: 0.5rem 0;
+}
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: rgb(201, 188, 168);
+    text-decoration: none;
+}
+.post-entry p {
+    margin: 0;
+    font-weight: 400;
+}
+.post-entry h2 a:hover {
+    color: rgb(171, 183, 199);
+}
+header a {
+	text-decoration: none;
+	color: blue;
+}
+button{
+    border-radius: 12px;
+    background-color: rgb(176, 164, 144);
+    border: 5px solid rgba(201, 188, 168, 0.7);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    text-transform: uppercase
+}
+button:hover{
+    background-color:rgba(201, 188, 168, 0.9);
+    border:5px solid rgb(216, 203, 185)
+}
+input[type="submit"]{ 
+    border-radius: 12px;
+    background-color: rgb(176, 164, 144);
+    border: 5px solid rgba(201, 188, 168, 0.7);
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color:white;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    text-transform: uppercase;
+
+}
+input:hover{ 
+    background-color:rgba(201, 188, 168, 0.9);
+    border:5px solid rgb(216, 203, 185)
+}
+*/
+.navbar-custom {
+    background-color: lightgreen;
+}
+

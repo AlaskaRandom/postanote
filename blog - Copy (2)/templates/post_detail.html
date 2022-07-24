@@ -1,0 +1,17 @@
+<!-- templates/post_detail.html -->
+{% extends 'base.html' %}
+
+{% block content%}
+
+    <div class="post-entry">
+        <h2><a href="" style = color:#ea9999>{{ post.title }}</a></h2>
+        <p style = "color:#839389">Author: {{ post.author }}</p>
+        <p>{{ post.body }}</p>
+    </div>
+    <button  type="button" style="border-radius:13px; height:25px; background-color:#457268; border-style: solid; border-color:#839389 ">
+        <p><a href="{% url 'post_edit' post.pk %}"style=" text-decoration: none;font-size: 13; color:white">+ Edit</a></p>
+    </button>
+    <button  type="button" style="height:25px; border-radius:13px;background-color:#457268;border-style: solid;border-color:#839389">
+        <p><a href="{% url 'post_delete' post.pk %}"style="text-decoration: none; font-size: 13; color:white;">+ Delete</a></p>
+    </button>   
+{% endblock content%}

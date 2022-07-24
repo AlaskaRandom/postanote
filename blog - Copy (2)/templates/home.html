@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+<link rel="stylesheet" type="text/css" href="custom.css">
+{% block content%}
+    <b style = " margin-top: 50px; font-size: 30px; color:black; margin-bottom: 50px"> Recent Messages: </b>
+
+    {% for post in all_posts_list %}
+        <div class="post-entry">
+            
+            <h2><a href="{% url 'post_detail' post.pk %}" style = "color:#ea9999;text-decoration: none;">{{ post.title }}</a></h2>
+            <a style = color:#839389>{{ post.author }} </a>
+            <p>{{ post.body }}</p>
+        </div>
+    {% endfor %}
+<br>
+<br>
+<br>
+<br>
+{% endblock content%}
